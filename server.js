@@ -6,13 +6,13 @@ app.listen(3001);
 module.exports = app;
 
 console.log('Server running at http://localhost:3001/');
-
+/*
 app.post('/submit', (req, res) => {
   
     // Redirect to the Home Page after a short delay
     setTimeout(() => {
       res.redirect('/');
-    }, 3000); // Adjust the delay (in milliseconds) as needed
+    }, 5001); // Adjust the delay (in milliseconds) as needed
   });
   
   app.get('/', (req, res) => {
@@ -21,6 +21,6 @@ app.post('/submit', (req, res) => {
   });
   
   // Start the server
-  app.listen(3001, () => {
-    console.log('Server running at http://localhost:3001/');
-  });
+  app.listen(5001, () => {
+    console.log('Server running at http://localhost:5000/');
+  }); */
